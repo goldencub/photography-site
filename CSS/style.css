@@ -1,0 +1,52 @@
+*,
+*::before.
+*::after {
+    box-sizing: border-box;
+}
+
+/* custom properties */
+
+
+:root {
+    --ff-primary: "Savate", sans-serif;
+    --ff-secondary: ;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-bg: #fff;
+    --clr-text: #303030;
+    --clr-accent: #16e0bd;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-hs: 1.2rem;
+    --fs-body: 1rem;
+
+
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+body {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height:1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
