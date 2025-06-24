@@ -14,9 +14,9 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --clr-bg: #fff;
-    --clr-text: #303030;
-    --clr-accent: #16e0bd;
+    --clr-light: tan;
+    --clr-dark: black;
+    --clr-accent: tan;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -31,7 +31,7 @@
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5rem
+        --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
         --fs-body: 1.125rem;
@@ -47,7 +47,7 @@ html {
 
 
 body {
-    background-color: #FFFDD0;
+    background-color: #fcfcfc;
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
@@ -372,7 +372,7 @@ h3 { font-size: var(--fs-h3) }
 
     .my-work__img {
         grid-area: img;
-        postion: relative;
+        position: relative;
         z-index: 2;
 }
 
@@ -380,7 +380,7 @@ h3 { font-size: var(--fs-h3) }
 /* my work */
 
 .my-works {
-    background-color: darkslategray;
+    background-color: black;
     color: var(--clr-light);
     text-align: center;
 
