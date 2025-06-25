@@ -47,7 +47,7 @@ html {
 
 
 body {
-    background-color: #fcfcfc;
+    background: linear-gradient(to bottom, #ffffff, #fce5cd);
     color: var(--clr-dark);
     margin: 0;
     font-family: var(--ff-primary);
